@@ -1,0 +1,32 @@
+/*
+ * Admin styles
+ *
+ * @package Ascetica
+ * @subpackage Template
+ */
+.hybrid-core-settings-wrap .inside span.description {
+    font-size: 11px;
+    font-style: normal;
+    color: #999;
+}
+.hybrid-core-settings-wrap #ascetica-theme-meta-box .inside img {
+    background: #fff;
+    padding: 3px;
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	max-width: 100%;
+}
+#hybrid-core-footer textarea {
+    max-height: 160px;
+}
+#colorpicker_link_color { display: none; }
+#colorpicker_link_color_link { margin-left: 8px; }
+#ascetica_theme_settings-ascetica_favicon_url, #ascetica_theme_settings-ascetica_logo_url { width: 500px; }
+.favicon_url p { max-width: 32px; }
+.logo_url p { max-width: 200px; }
+#ascetica_theme_settings-ascetica_slider_timeout { width: 85px; }
+#ascetica_theme_settings-ascetica_custom_css { width: 98%; }
+#ascetica_favicon_upload_button, #ascetica_logo_upload_button { display: none; }
+#ascetica_favicon_upload_button.visible, #ascetica_logo_upload_button.visible { display: inline-block; }

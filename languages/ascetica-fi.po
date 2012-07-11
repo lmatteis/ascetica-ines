@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ascetica\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-09 22:44+0200\n"
+"PO-Revision-Date: 2012-04-25 19:48+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: Foxnet <sami.keijonen@foxnet.fi>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\cell\\wp-content\\themes\\ascetica\n"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/404.php:25
+msgid "Not Found"
+msgstr "Ei löytynyt"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/404.php:30
+#, php-format
+msgid "You tried going to %1$s, and it doesn't exist. All is not lost! You can search for what you're looking for."
+msgstr "Yritit mennä sivulle %1$s, mutta sivua ei enää ole. Yritä navigoida uudelleen tai etsiä hakulomakkeella."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/attachment.php:44
+#, php-format
+msgid "Download &quot;%1$s&quot;"
+msgstr "Lataa &quot;%1$s&quot;"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/attachment.php:49
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Jatka lukemista <span class=\"meta-nav\">&rarr;</span>"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/attachment.php:50
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content-gallery.php:42
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content-gallery.php:56
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content.php:27
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content.php:60
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/comment.php:34
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa moderointia."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/comments.php:25
+msgid "No Responses"
+msgstr "Ei kommentteja"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/comments.php:25
+msgid "One Response"
+msgstr "Yksi kommentti"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/comments.php:25
+msgid "% Responses"
+msgstr "% Kommenttia"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/comments.php:46
+#, php-format
+msgid "Comments are closed, but <a href=\"%1$s\" title=\"Trackback URL for this post\">trackbacks</a> and pingbacks are open."
+msgstr "Kommentointi on suljettu, mutta <a href=\"%1$s\" title=\"Trackback URL for this post\">paluuviitteet</a> ja päivitysilmoitukset ovat avoinna."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/comments.php:52
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content-gallery.php:28
+msgid "[entry-author before=\"Author: \"]"
+msgstr "[entry-author before=\"Kirjoittaja: \"]"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content-gallery.php:30
+msgid "[entry-terms taxonomy=\"category\" before=\"Category: \"]"
+msgstr "[entry-terms taxonomy=\"category\" before=\"Kategoria: \"]"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content-gallery.php:32
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content.php:31
+msgid "[entry-terms taxonomy=\"post_tag\" before=\"Tags: \"]"
+msgstr "[entry-terms taxonomy=\"post_tag\" before=\"Avainsanat: \"]"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content-gallery.php:54
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content.php:21
+#: c:\wamp\www\cell\wp-content\themes\ascetica/content.php:56
+msgid "[entry-published] &middot; by [entry-author] &middot; in [entry-terms taxonomy=\"category\" before=\"\"] [entry-edit-link before=\" &middot; \"]"
+msgstr "[entry-published] &middot; [entry-author] &middot; [entry-terms taxonomy=\"category\" before=\"\"] [entry-edit-link before=\" &middot; \"]"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:167
+#: c:\wamp\www\cell\wp-content\themes\ascetica/loop-nav.php:28
+msgid "&laquo; Previous"
+msgstr "&laquo; Edellinen"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:168
+#: c:\wamp\www\cell\wp-content\themes\ascetica/loop-nav.php:28
+msgid "Next &raquo;"
+msgstr "Seuraava &raquo;"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:215
+msgid "*"
+msgstr "*"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:220
+msgid "Name"
+msgstr "Nimi"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:221
+msgid "Email"
+msgstr "Email"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:222
+msgid "Website"
+msgstr "Kotisivu"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:227
+msgid "Comment"
+msgstr "Kommentti"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:228
+#, php-format
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr "Sinun pitää olla<a href=\"%1$s\" title=\"Log in\">kirjautuneena</a>, jotta voit kommentoida."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:229
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "Kirjautuneena nimellä <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:229
+msgid "Log out of this account"
+msgstr "Kirjaudu ulos"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:229
+msgid "Log out &raquo;"
+msgstr "Kirjaudu ulos &raquo;"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:234
+msgid "Leave a Reply"
+msgstr "Jätä kommentti"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:235
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Jätä vastaus %s"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:236
+msgid "Click here to cancel reply."
+msgstr "Klikkaa tästä, jos haluat perua vastauksen."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:237
+msgid "Post Comment"
+msgstr "Kommentoi"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:249
+msgid "Copyright &#169; [the-year] [site-link]"
+msgstr "Copyright &#169; [the-year] [site-link]"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/functions.php:249
+msgid "Powered by [wp-link] and [theme-link]"
+msgstr "Alustana [wp-link] ja [theme-link]"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/loop-error.php:15
+msgid "Apologies, but no entries were found."
+msgstr "Pahoittelut, mutta yhtään artikkelia ei löytynyt."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/loop-nav.php:16
+msgid "&laquo; Return to entry"
+msgstr "&laquo; Palaa edelliselle sivulle"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/loop-nav.php:22
+msgid "<span class=\"meta-nav\">&laquo;</span> Previous"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Edellinen"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/loop-nav.php:23
+msgid "Next <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Seuraava <span class=\"meta-nav\">&raquo;</span>"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/searchform.php:17
+msgid "Search this site..."
+msgstr "Etsi tältä sivulta..."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/searchform.php:19
+#: c:\wamp\www\cell\wp-content\themes\ascetica/sidebar-secondary.php:22
+msgid "Search"
+msgstr "Etsi"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/sidebar-primary.php:22
+msgid "Meta"
+msgstr "Meta"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/sidebar-primary.php:33
+msgid "Archives"
+msgstr "Arkistot"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:38
+msgid "General settings"
+msgstr "Yleiset asetukset"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:55
+msgid "Favicon:"
+msgstr "Favicon:"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:61
+msgid "Upload favicon image (recommended max size: 32x32)."
+msgstr "Lataa favicon-kuva (suositeltu maksimikoko 32x32)."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:73
+msgid "Logo:"
+msgstr "Logo:"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:79
+msgid "Upload logo image."
+msgstr "Lataa logokuva."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:91
+msgid "Font family:"
+msgstr "Fontti"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:95
+msgid "Georgia"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:96
+msgid "PT Serif"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:97
+msgid "Bitter"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:98
+msgid "Droid Serif"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:99
+msgid "Helvetica"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:100
+msgid "Istok Web"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:101
+msgid "Arial"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:102
+msgid "Verdana"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:103
+msgid "Lucida Sans Unicode"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:104
+msgid "Droid Sans"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:112
+msgid "Font size:"
+msgstr "Fontin koko:"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:116
+msgid "default"
+msgstr "oletus"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:117
+msgid "18"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:118
+msgid "17"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:119
+msgid "16"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:120
+msgid "15"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:121
+msgid "14"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:122
+msgid "13"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:123
+msgid "12"
+msgstr ""
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:125
+msgid "The base font size in pixels."
+msgstr "Oletus fontin koko pikseleinä."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:132
+msgid "Link color:"
+msgstr "Linkin väri:"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:137
+msgid "Set the theme link color."
+msgstr "Aseta teeman linkin väri."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:144
+msgid "Custom CSS:"
+msgstr "Kustomoitu CSS:"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:148
+msgid "Add your custom CSS here. If it's more than a few lines, it's recommended to separate your modifications in a child theme."
+msgstr "Lisää kustomoitu CSS tähän. Jos kustomointia on paljon, on suositeltavaa käyttää lapsiteemaa."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/admin/functions-admin.php:182
+msgid "Use this Image"
+msgstr "Käytä tätä kuvaa"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:25
+msgid "Display post images from selected category."
+msgstr "Näytä kuvat valitusta kategoriasta."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:37
+msgid "Ascetica - Thumbnails"
+msgstr "Ascetica - pikkukuvat"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:59
+msgid "No images."
+msgstr "Ei kuvia."
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:116
+msgid "Thumbnails"
+msgstr "Pikkukuvat"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:126
+msgid "Title"
+msgstr "Otsikko"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:133
+msgid "Select Category"
+msgstr "Valitse kategoria"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:143
+msgid "Number of thumbnails"
+msgstr "Pikkukuvien lukumäärä"
+
+#: c:\wamp\www\cell\wp-content\themes\ascetica/includes/widget-thumbnails.php:149
+msgid "Display in random order"
+msgstr "Näytä satunnaisessa järjestyksessä"
+
