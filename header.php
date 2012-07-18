@@ -79,12 +79,13 @@
 						<?php hybrid_site_description(); ?>						
 		
 						<?php do_atomic( 'header' ); // ascetica_header ?>
+		                
+                        <?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
 						
 						<?php if ( is_home() && !is_paged() ) get_template_part( 'featured-content' ); // Loads the featured-content.php template. ?>						
 		
 					<?php do_atomic( 'close_header' ); // ascetica_close_header ?>
 
-		            <?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
 		
 				</div><!-- #header -->
 		
