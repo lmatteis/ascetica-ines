@@ -11,7 +11,7 @@
  * @subpackage Template
  */
 ?>
-				<?php get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
+				<?php //get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
 
 				<?php do_atomic( 'close_main' ); // ascetica_close_main ?>
 

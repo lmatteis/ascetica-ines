@@ -180,7 +180,7 @@ function ascetica_pagination_args( $args ) {
 function ascetica_image_sizes() {
 	
 	add_image_size( 'singular-gallery-thumbnail', 400, 230, true );
-	add_image_size( 'singular-thumbnail', 660, 330, true );
+	add_image_size( 'singular-thumbnail', 660, 250, true );
 }
 
 /**

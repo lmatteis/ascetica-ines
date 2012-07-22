@@ -45,48 +45,48 @@
 	<div id="container">
 		
 		<div class="wrap">
+            <?php do_atomic( 'before_header' ); // ascetica_before_header ?>
+
+            <div id="header">
+    
+                <?php do_atomic( 'open_header' ); // ascetica_open_header ?>
+    
+                    <div id="branding">
+                        
+                        <?php if ( hybrid_get_setting( 'ascetica_logo_url' ) ) { ?>			
+                            
+                            <h1 id="site-title">
+                                <a href="<?php echo home_url(); ?>" title="<?php echo bloginfo( 'name' ); ?>" rel="Home">
+                                    <img class="logo" src="<?php echo esc_url( hybrid_get_setting( 'ascetica_logo_url' ) ); ?>" alt="<?php echo bloginfo( 'name' ); ?>" />
+                                </a>
+                            </h1>
+                        
+                        <?php } else { ?>
+                        
+                            <?php hybrid_site_title(); ?>
+                        
+                        <?php } ?>
+                        
+                    </div><!-- #branding -->
+                    
+                    <?php hybrid_site_description(); ?>						
+    
+                    <?php do_atomic( 'header' ); // ascetica_header ?>
+                    
+                    <?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
+                    
+    
+                <?php do_atomic( 'close_header' ); // ascetica_close_header ?>
+
+    
+            </div><!-- #header -->
+    
+            <?php do_atomic( 'after_header' ); // ascetica_after_header ?>				
 			
 			<?php do_atomic( 'before_main' ); // ascetica_before_main ?>
 			
 			<div id="main">
 				
+                <?php if ( is_home() && !is_paged() ) get_template_part( 'featured-content' ); // Loads the featured-content.php template. ?>						
 				<?php do_atomic( 'open_main' ); // ascetica_open_main ?>
 
-				<?php do_atomic( 'before_header' ); // ascetica_before_header ?>
-		
-				<div id="header">
-		
-					<?php do_atomic( 'open_header' ); // ascetica_open_header ?>
-		
-						<div id="branding">
-							
-							<?php if ( hybrid_get_setting( 'ascetica_logo_url' ) ) { ?>			
-								
-								<h1 id="site-title">
-									<a href="<?php echo home_url(); ?>" title="<?php echo bloginfo( 'name' ); ?>" rel="Home">
-										<img class="logo" src="<?php echo esc_url( hybrid_get_setting( 'ascetica_logo_url' ) ); ?>" alt="<?php echo bloginfo( 'name' ); ?>" />
-									</a>
-								</h1>
-							
-							<?php } else { ?>
-							
-								<?php hybrid_site_title(); ?>
-							
-							<?php } ?>
-							
-						</div><!-- #branding -->
-						
-						<?php hybrid_site_description(); ?>						
-		
-						<?php do_atomic( 'header' ); // ascetica_header ?>
-		                
-                        <?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
-						
-						<?php if ( is_home() && !is_paged() ) get_template_part( 'featured-content' ); // Loads the featured-content.php template. ?>						
-		
-					<?php do_atomic( 'close_header' ); // ascetica_close_header ?>
-
-		
-				</div><!-- #header -->
-		
-				<?php do_atomic( 'after_header' ); // ascetica_after_header ?>				

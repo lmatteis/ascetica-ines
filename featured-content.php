@@ -28,7 +28,7 @@ if ( ! empty( $sticky ) ) :
 				   
 					<div id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class(); ?> featured">
 		
-						<?php if ( current_theme_supports( 'get-the-image' ) ) get_the_image( array( 'meta_key' => 'Thumbnail', 'size' => 'singular-thumbnail', 'image_class' => 'featured', 'default_image' => get_template_directory_uri() . '/images/singular_thumbnail_placeholder.png', 'width' => 660, 'height' => 330 ) ); ?>
+						<?php if ( current_theme_supports( 'get-the-image' ) ) get_the_image( array( 'meta_key' => 'Thumbnail', 'size' => 'singular-thumbnail', 'image_class' => 'featured', 'default_image' => get_template_directory_uri() . '/images/singular_thumbnail_placeholder.png', 'width' => 660, 'height' => 250 ) ); ?>
 						
 						<?php echo apply_atomic_shortcode( 'entry_title', '[entry-title]' ); ?>				
 					

@@ -529,9 +529,11 @@ input[type="submit"]:hover { cursor: pointer }
 }
 #content {
 	float: left;
-	width: 71.21212121212121%;
+	/*width: 71.21212121212121%;*/
 	margin: 0 0 40px 28.78787878787879%;
+    margin-left:0;
 	min-height: 180px;
+    width: 100%;
 }
 .page-template-wide #content, .post-format-gallery #content {
 	width: 100%;
@@ -541,7 +543,7 @@ input[type="submit"]:hover { cursor: pointer }
 	float: right;
 	width: 25.53191489361702%;
 	clear: right;
-	margin: 30px 0;
+	/*margin: 30px 0;*/
 }
 #menu-primary {
     float: none;
@@ -625,7 +627,10 @@ input[type="submit"]:hover { cursor: pointer }
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	word-spacing: 2px;
+    /*
+	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
+    */
 }
 #menu-primary li a:hover {
 	background: #f7f7f7;
@@ -1335,6 +1340,8 @@ input[type="submit"]:hover { cursor: pointer }
 	NAV
 \*------------------------------------*/
 #menu-primary-items{
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 	list-style:none;
 	margin-bottom:25px;
 	/* Clear floats */
@@ -1377,4 +1384,9 @@ input[type="submit"]:hover { cursor: pointer }
 #menu-primary-items li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
 }
 #menu-primary-items li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+}
+
+.newsletter, .aboutme {
+    background: #eee;
+    height: 250px;
 }

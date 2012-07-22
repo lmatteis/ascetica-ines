@@ -55,7 +55,7 @@ do_atomic( 'before_entry' ); // ascetica_before_entry ?>
 	
 			<?php echo apply_atomic_shortcode( 'byline', '<div class="byline">' . __( '[entry-published] &middot; by [entry-author] &middot; in [entry-terms taxonomy="category" before=""] [entry-edit-link before=" &middot; "]', 'ascetica' ) . '</div>' ); ?>
 				
-			<?php the_excerpt(); ?>
+			<?php// the_excerpt(); ?>
 				
 			<?php wp_link_pages( array( 'before' => '<p class="page-links">' . __( 'Pages:', 'ascetica' ), 'after' => '</p>' ) ); ?>
 	

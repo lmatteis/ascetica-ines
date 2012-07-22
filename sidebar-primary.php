@@ -14,6 +14,13 @@ do_atomic( 'before_sidebar_primary' ); // ascetica_before_sidebar_primary ?>
 <div id="sidebar-primary" class="sidebar">
 
 	<?php do_atomic( 'open_sidebar_primary' ); // ascetica_open_sidebar_primary ?>
+
+    <div class="newsletter widget">
+        Newsletter
+    </div>
+    <div class="aboutme widget">
+        About me
+    </div>
 		
 	<?php if ( ! is_active_sidebar( 'primary' ) ) { /* Output default widgets. */ ?>
 
